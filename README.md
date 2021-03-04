@@ -13,13 +13,12 @@
 <br>
 
  ### Leguajes que se van a practicar 
- . Javascript
- . Python
- . Flujo de trabajo de github y git
+ - Html
+ - css
  
  <br>
  <br>
 
-### colaboradores :
+### Creador:
 
 * [Miguel Ángel Giraldo Duque](https://www.facebook.com/miguel.giraldo.9484)  **Desarrollador_web/Creador_videojuegos.**
