@@ -43,7 +43,7 @@ header img{
 .header-content-tilte{
     width: 90%;
     min-width: 288px;
-    max-width: 900px;
+    max-width: 900px;   
     height: 218px;
     margin-top:50px;
     align-self: center;
@@ -74,15 +74,15 @@ header img{
     padding: 15px;
     width: 229px;
     height: 48px;
-    background-color: var(--off-white);
+    background-color: var(--black );
     /* Sombra*/
-    box-shadow: 0px 4px 8px rgba(89, 73,30, 0.16);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.897);
     border: none;
     border-radius: 6px;
     font-size: 1.4rem;
     font-weight: bold;
     text-decoration: none;
-    color: var(--black);
+    color: var(--off-white);
 }
 
 .header-botton span{
@@ -96,7 +96,7 @@ header img{
 main{
     width: 100%;
     height: auto;
-    background-color: var(--off-white);
+    background-color: var(--warm-black);
 }
 
 .main_exchange{
@@ -130,7 +130,7 @@ main{
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
-    color:var(--black);
+    color:var(--off-white);
 }
 
 .main_exchange p{
@@ -138,14 +138,15 @@ main{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color:#757575
+    color:#948a8abe;
+    margin: 40px;
 }
 
-.main-currensy--table{
+.main-tables-container{
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
+    height: 400px;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
 }
@@ -155,15 +156,23 @@ main{
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    color: var(--bitcoin-orange)
+    color: var(--bitcoin-orange);
+    text-align: center;
+    
+    
 }
 
 .currensy-table--conteiner{
-    width: 90%;
-    min-width: 230px;
-    max-height: 300px;
-    height: 250px;
+    width: 60%;
+    min-width: 140px;
+    max-height: 200px;
+    height: 230px;
     margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.753);
 }
 
 .currensy-table--conteiner table{
@@ -214,3 +223,32 @@ main{
     background-repeat: no-repeat;
     
 }
+
+.currensy-table--conteiner .up{
+    display: inline-block;
+    margin-left:9px ;
+    width:15px ;
+    height: 15px;
+    background-image: url(./assets/icons/trending-up.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+.Up_date_fech{
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding:  8px;
+    background-color: var(--black);
+    border-radius: 8px;
+}
+
+.Up_date_fech p{
+    font-size: 1.3rem;
+    line-height: 1.1rem;
+    color: var(--just-white);
+}
+
+    
